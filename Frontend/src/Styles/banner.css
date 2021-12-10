@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  margin-top: 5rem;
+}
+
+.banner img {
+  height: 60vh;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .info {
+  margin-left: 2rem;
+}
+
+.banner .info button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #6f4e94;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=banner.css.map */

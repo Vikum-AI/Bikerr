@@ -16,8 +16,8 @@ export default function header() {
                 
                 <ul className="nav-links">
 
-                    <li> <a href="#"> Home </a> </li>
-                    <li> <a href="#"> About </a> </li>
+                     <li> <a href="#"> Home </a> </li> 
+                    {/* <li> <a href="#"> About </a> </li> */}
                     <li> <a href="#"> Bikes </a> </li>
                     <li> <a href="#"> Login </a> </li>
 
