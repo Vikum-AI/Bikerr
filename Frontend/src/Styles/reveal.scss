@@ -1,0 +1,32 @@
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.008);
+}
+
+.material-icons {
+  cursor: pointer;
+  position: relative;
+  top: 15rem;
+  z-index: 100;
+}
+
+#icon1 {
+  position: relative;
+  left: 1rem;
+}
+
+#icon2 {
+  position: relative;
+  left: 37rem;
+}
+
+.material-icons:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}

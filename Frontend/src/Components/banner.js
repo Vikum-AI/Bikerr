@@ -1,14 +1,23 @@
 import React from 'react'
 import bannerImage from '../Assets/sample-image-1.jpg'
 import '../Styles/banner.css'
+import Reveal from './Reveal'
+import images from './images'
+
 
 export default function banner() {
     return (
         <div className='banner'> 
             
-            <div className="img">
+            {/* <div className="img">
 
                 <img src= { bannerImage } alt="" />
+
+            </div> */}
+
+            <div className="img">
+
+            <Reveal slides={ images } /> 
 
             </div>
 
